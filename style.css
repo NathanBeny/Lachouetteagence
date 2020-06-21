@@ -17,6 +17,9 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
+a:focus {
+  border: 1px solid black;
+}
 
 #page-loading-blocs-notifaction {
   position: fixed;
@@ -195,7 +198,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .d-bloc .panel button:hover,
@@ -755,7 +758,7 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: rgba(115, 111, 104, 0.7);
   padding: 40px 40px 40px 40px;
 }
 
@@ -773,15 +776,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  background-color: #c14f1c;
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: #ffffff !important;
 }
 
 .btn-atomic-tangerine {
-  background: #f3976c;
+  background: #c14f1c;
   color: #ffffff !important;
 }
 
@@ -799,7 +802,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-  color: #f3976c !important;
+  color: #c14f1c !important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -1041,4 +1044,12 @@ h4 {
   .bloc-mob-center-text {
     text-align: center;
   }
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.link_name {
+  color: inherit;
 }
