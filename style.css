@@ -1046,10 +1046,19 @@ h4 {
   }
 }
 
-p {
+.citation + p {
   font-size: 1.5rem;
 }
 
 .link_name {
   color: inherit;
+}
+
+.entreprise {
+  font-size: 2rem;
+  padding: 0 22%;
+}
+
+.citation {
+  font-size: 2rem;
 }
